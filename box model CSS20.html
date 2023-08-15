@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        body{
+            background-color: rgb(37, 135, 50);
+        }
+        .container{
+            background-color: rgb(44, 196, 196);
+            border: 5px solid red;
+            /* for padding top bottom left right are also used and same for margin */
+            /* padding: 79px; */
+
+            /* padding for top right bottom left */
+            /* padding: 34px 20px 25px 19px; */
+
+            /* padding: y(top bottom) x(left right); */
+            padding: 24px 19px;
+            margin: 15px 15px;
+            border-radius: 23px;
+            width: 500px; 
+             box-sizing: border border-box;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my first heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum blanditiis, doloribus harum, quia, deleniti adipisci explicabo laboriosam animi inventore asperiores quidem nobis? Inventore blanditiis animi cum culpa, eos doloribus quam.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my second heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum blanditiis, doloribus harum, quia, deleniti adipisci explicabo laboriosam animi inventore asperiores quidem nobis? Inventore blanditiis animi cum culpa, eos doloribus quam.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my third heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum blanditiis, doloribus harum, quia, deleniti adipisci explicabo laboriosam animi inventore asperiores quidem nobis? Inventore blanditiis animi cum culpa, eos doloribus quam.</p>
+    </div>
+</body>
+</html>

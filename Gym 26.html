@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            color: white;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            top: 33px;
+            left: 22px;
+
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 33px auto;
+        }
+
+        .mid :hover {
+            color: gray;
+        }
+
+        .right {
+            position: absolute;
+            top: 33px;
+            right: 22px;
+            display: inline-block;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+        
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+
+        .navbar {
+            display: inline block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 10px;
+
+
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+        }
+        img{
+            float: right;
+            position: absolute;
+            top: 200px;
+            right: 0px;
+        }
+       
+    </style>
+</head>>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="data:image/jpeg;base64,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"
+                alt="">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">About us</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+            <h1>JOIN THE BEST GYM OF KARACHI NOW</h1>
+            <form action="no action.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Phone Number">
+                </div>
+                <button class="btn">Submit</button>
+                <button class="btn"><input type="Reset" value="Reset Now"></button>
+            </form>
+        </div>
+    </header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1KFbU-zJYt6CAxwZM9sxOuUv8ZKeU30DvoQ&usqp=CAU" alt="">
+</body>
+
+</html>
