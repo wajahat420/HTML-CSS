@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation practice</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: rgb(4, 75, 97);
+        }
+
+        .box {
+            position: relative;
+            height: 400px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            overflow: hidden;
+            border-radius: 20px;
+
+        }
+        .box:before{
+            content: '';
+            position:absolute ;
+            width: 180px;
+            height: 140%;
+            background-color: white;
+            box-shadow: 0 0 20px rgb(8 ,8, 8 );
+            animation: animate 4s linear infinite;
+        }
+        .box::after{
+            content: "";
+            position: absolute;
+            inset: 10px;
+            background-color:rgb(4, 75, 97);
+            border-radius: 16px;
+        }
+        @keyframes animate{
+            0%{
+transform: rotate(0deg);
+            }
+            100%{
+transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>

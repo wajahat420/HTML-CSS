@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: rgb(120, 207, 207);
+            padding: 10px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 700px;
+            width: 100%;
+            background-color: white;
+            padding: 25px 30px;
+            border-radius: 10px;
+        }
+
+        .btn {
+            text-align: center;
+            display: block;
+            width: 200px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .btn :hover {
+            background-color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="backend.php">
+                <div class="input-box">
+                    Name <span class="details"></span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    Father Name <span class="details"></span>
+                    <input type="text" placeholder="Enter your Father name" required>
+                </div>
+                <div class="input-box">
+                    Date of birth <span class="details"></span>
+                    <input type="text" placeholder="Enter your date of birth" required>
+                </div>
+                <div class="input-box">
+                    Gender <span class="details"></span>
+                    <input type="text" placeholder="Enter your gender" required>
+                </div>
+                <div class="input-box">
+                    Contact number <span class="details"></span>
+                    <input type="text" placeholder="Enter your contact number" required>
+                </div>
+                <div class="input-box">
+                    Email <span class="details"></span>
+                    <input type="text" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                    Address <span class="details"></span>
+                    <input type="text" placeholder="Enter your address" required>
+                </div>
+                <button class="btn">submit now</button>
+            </div>
+    </form>
+    </div>
+</body>
+
+</html>

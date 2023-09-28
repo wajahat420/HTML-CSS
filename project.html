@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web design</title>
+    <style>
+        body {
+            /* height: 3999px; */
+            width: 100%;
+            background-color: black;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .logo {
+            font-size: bold;
+            font-style: oblique;
+            color: orangered;
+            margin-top: 10px;
+            margin-left: 20px;
+            position: absolute;
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: 10px auto;
+            font-weight: bold;
+            position: absolute;
+            top: 2px;
+            left: 0px;
+            right: 0px;
+        }
+
+        .mid :hover {
+            color: white;
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 10px;
+            font-size: 18px;
+
+        }
+
+        .navbar li a {
+            color: orangered;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .right {
+            text-align: right;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+
+        }
+
+        #butn {
+            margin-top: 20px;
+            margin-right: 15px;
+            padding: 15px 15px;
+            background-color: orangered;
+            color: white;
+            font-weight: bold;
+            border-radius: 7px;
+        }
+
+        #butn:hover {
+            background-color: gray;
+        }
+
+        .hdg {
+            color: white;
+            position: absolute;
+            top: 150px;
+            left: 50px;
+            font-size: 40px;
+        }
+
+        .hdg a {
+            color: orangered;
+            text-decoration: none;
+        }
+
+        .para {
+            color: white;
+            position: absolute;
+            top: 265px;
+            left: 50px;
+        }
+
+        .btn {
+            color: orangered;
+            position: absolute;
+            top: 340px;
+            left: 50px;
+            margin: 20px 9px;
+            padding: 14px 30px;
+            font-size: 20px;
+            background-color: white;
+        }
+
+        .btn:hover {
+            background-color: orangered;
+            color: white;
+        }
+
+        .btnn {
+            color: white;
+            position: absolute;
+            top: 340px;
+            left: 50px;
+            margin: 20px 180px;
+            padding: 14px 30px;
+            font-size: 20px;
+            background-color: orangered;
+            transition: 0.9s ease-in-out;
+        }
+
+        .btnn:hover {
+            background-color: white;
+            color: orangered;
+        }
+
+        .img {
+            float: right;
+            margin: 150px auto;
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 106px 120px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+            position: absolute;
+            top: 390px;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai', cursive;
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+        }
+
+        .heading {
+            color: white;
+        }
+
+        .heading a {
+            color: orangered;
+            text-decoration: none;
+        }
+
+        .container button {
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+            background-color: orangered;
+            color: white;
+            font-size: 20px;
+            padding: 5px 5px;
+            border-radius: 9px;
+        }
+
+        .container button:hover {
+            color: orangered;
+            background-color: white;
+        }
+
+        #img img {
+            height: 500%;
+            width: 500px;
+            border-radius: 50%;
+            border: 2px solid white;
+            /* position: absolute;
+            top: 10px; */
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="icon"></div>
+        <h1 class="logo">AloNe</h1>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Employers</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="wave" id="butn">Call Now</button>
+            <button class="wave" id="butn">Email Us</button>
+
+        </div>
+        <h2 class="hdg">A Creative <a href="">Web -<br>Development </a> Company</h2>
+        <p class="para">World is changing rapidly and so is the technology. Learn a new technology <br> to build a
+            better future for you and for the world. Choose to learn web <br> development, app development and many
+            more</p>
+        <button class="btn">Get started</button>
+        <button class="btnn">Learn more</button>
+        <div id="img"> <img
+                src="https://media.istockphoto.com/id/1392930383/photo/profile-side-view-portrait-of-attractive-cheerful-skilled-girl-geek-developing-web-site-cyber.webp?b=1&s=170667a&w=0&k=20&c=nlVtOz2-iCL8vToMWUvJuiARLJmbfvRnvbqLXuOm-U0="
+                alt="" class="img"></div>
+        <div class="container">
+            <h1 class="heading"><a href="">Join</a> The <a href="">Best</a> Web-Development <a href="">Company</a> OF <a
+                    href="">Karachi</a></h1>
+            <form action="no action.php"></form>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your Email ID">
+            </div>
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter your Phone no">
+                <button class="endbtn">Submit Now</button>
+            </div>
+            
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image {
+            background: url("./images/background.jpeg");
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .img2 {
+            float: right;
+            position: relative;
+            right: 0px;
+            top: 0px;
+            animation-name: nudba;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function:ease-in-out;
+            animation-fill-mode: forwards;
+            
+        }
+
+        @keyframes nudba {
+            from{
+                top: 50px;
+                left: 0vw;
+            }
+            to {
+                top: 50px;
+                right: 100vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="image">
+        <img class="img2" src="./images/aeroplane.jpeg" alt="">
+    </div>
+</body>
+
+</html>
