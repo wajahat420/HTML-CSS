@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        body{
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+        }
+         #left{
+            position: absolute;
+            top: 30px;
+            left: 60px;
+         }
+        #right{
+            position: absolute;
+            top: 30px;
+            right: 270px;
+        }
+        #btn{
+            background-color: blue;
+            border: 2px solid transparent;
+            border-radius: 20px;
+            position: absolute;
+            top: 20px;
+            right: 100px;
+            padding: 10px;
+            color: white;
+            font-weight:15px;
+            
+        }
+       #mid {
+        display: flex;
+        justify-content: center;
+        margin-top:100px ;
+        line-height: 20px;
+        font-size: 30px;
+        
+        }
+        .navbar{
+          display: flex;
+          justify-content: center;
+          margin-top: 25px;
+           
+        }
+        .navbar li{
+            display: inline-block;
+            padding: 0px 20px;
+        }
+        .navbar li a{
+             text-decoration: underline;
+        }
+        .container{
+            position: relative;
+            display: flex;
+            background-color: papayawhip;
+            height: 50em;
+            width: 100vw;
+            margin-top: 40px;
+        }
+        h1{
+            color:rgb(90, 88, 88);
+            font-size: 80px;
+            /* font-weight: 100px; */
+            position: relative;
+            top: 60px;
+            left: 35px;
+        }
+        #para{
+            position:absolute;
+            top: 350px;
+            left: 35px;
+            color: rgb(125, 115, 115);
+            font-size: 20px;
+        }
+        img{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            height: 50em;
+            width: 50vw;
+           
+        }
+        #button{
+            position: absolute;
+            top:500px;
+            left: 35px;
+            background-color: gray;
+            color: white;
+            padding: 20px 40px;
+            border: transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+       <p id="left">All templates</p>
+       <p id="right">No credit card required</p>
+       <button id="btn">START BUILDING</button>
+        <p id="mid">DOVILE</p>
+       </div>
+
+       <di class="navbar">
+        <ul>
+            <li> <a>HOME</a></li>
+            <li>SERVICES</li>
+            <li>ABOUT ME</li> 
+            <li>CONTACT</li>
+            <li>BLOG</li>
+        </ul>
+       </di>
+
+       <div class="container">
+        <h1>Hello,good to <br> see you!</h1>
+        <p id="para">I helped small and medium-sized business grow their <br> audience and brand reconization through social media</p>
+        <button id="button">Contact me </button>
+        <img src="girl pic.jpg" alt="">
+
+       </div>
+    </div>
+</body>
+</html>

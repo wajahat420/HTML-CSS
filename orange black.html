@@ -7,7 +7,7 @@
     <title>web design</title>
     <style>
         body {
-            /* height: 3999px; */
+            height: 3999px;
             width: 100%;
             background-color: black;
         }
@@ -24,6 +24,32 @@
             margin-top: 10px;
             margin-left: 20px;
             position: absolute;
+        }
+
+        .right {
+            position: absolute;
+            top: 28px;
+            right: 22px;
+            display: inline-block;
+        }
+
+        .wave {
+            margin: 0px 9px;
+            background-color: orangered;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.9s ease-in-out;
+            animation: animate 4s linear infinite;
+        }
+
+        .wave:hover {
+            color: orangered;
+            background-color: white;
         }
 
         .mid {
@@ -45,35 +71,12 @@
             display: inline-block;
             padding: 10px;
             font-size: 18px;
-
         }
 
         .navbar li a {
             color: orangered;
             text-decoration: none;
             padding: 34px 23px;
-        }
-
-        .right {
-            text-align: right;
-            position: absolute;
-            top: 0px;
-            right: 0px;
-
-        }
-
-        #butn {
-            margin-top: 20px;
-            margin-right: 15px;
-            padding: 15px 15px;
-            background-color: orangered;
-            color: white;
-            font-weight: bold;
-            border-radius: 7px;
-        }
-
-        #butn:hover {
-            background-color: gray;
         }
 
         .hdg {
@@ -96,7 +99,7 @@
             left: 50px;
         }
 
-        .btn {
+        #btn {
             color: orangered;
             position: absolute;
             top: 340px;
@@ -105,14 +108,15 @@
             padding: 14px 30px;
             font-size: 20px;
             background-color: white;
+            transition: 0.9s ease-in-out;
         }
 
-        .btn:hover {
+        #btn:hover {
             background-color: orangered;
             color: white;
         }
 
-        .btnn {
+        #btnn {
             color: white;
             position: absolute;
             top: 340px;
@@ -124,7 +128,7 @@
             transition: 0.9s ease-in-out;
         }
 
-        .btnn:hover {
+        #btnn:hover {
             background-color: white;
             color: orangered;
         }
@@ -181,20 +185,20 @@
             background-color: white;
         }
 
-        #img img {
-            height: 500%;
-            width: 500px;
+        img {
+            float: right;
+            margin: 150px 40px;
+            height: 300px;
+            border: 4px solid orangered;
             border-radius: 50%;
-            border: 2px solid white;
-            /* position: absolute;
-            top: 10px; */
+            box-shadow: -5px -5px 7px 2px orangered;
         }
-
-        
     </style>
 </head>
 
 <body>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbvkFUWhINNIJau5L4raqlAYL_TacLvTXGkg&usqp=CAU"
+        alt="">
     <div class="main">
         <div class="icon"></div>
         <h1 class="logo">AloNe</h1>
@@ -207,22 +211,18 @@
             </ul>
         </div>
         <div class="right">
-            <button class="wave" id="butn">Call Now</button>
-            <button class="wave" id="butn">Email Us</button>
-
+            <a class="wave" href="http://whatsapp.com">Call Now</a>
+            <a class="wave" href="http://gmail.com">Email Us</a>
         </div>
+
         <h2 class="hdg">A Creative <a href="">Web -<br>Development </a> Company</h2>
         <p class="para">World is changing rapidly and so is the technology. Learn a new technology <br> to build a
             better future for you and for the world. Choose to learn web <br> development, app development and many
             more</p>
-        <button class="btn">Get started</button>
-        <button class="btnn">Learn more</button>
-        <div id="img"> <img
-                src="https://media.istockphoto.com/id/1392930383/photo/profile-side-view-portrait-of-attractive-cheerful-skilled-girl-geek-developing-web-site-cyber.webp?b=1&s=170667a&w=0&k=20&c=nlVtOz2-iCL8vToMWUvJuiARLJmbfvRnvbqLXuOm-U0="
-                alt="" class="img"></div>
+        <button id="btn"> Get started</button>
+        <button id="btnn">Learn more</button>
         <div class="container">
-            <h1 class="heading"><a href="">Join</a> The <a href="">Best</a> Web-Development <a href="">Company</a> OF <a
-                    href="">Karachi</a></h1>
+            <h1 class="heading"><a>Join</a> The <a>Best</a> Web-Development <a>Company</a> OF <a>Karachi</a></h1>
             <form action="no action.php"></form>
             <div class="form-group">
                 <input type="text" name="name" placeholder="Enter your Name">
@@ -243,11 +243,10 @@
                 <input type="text" name="name" placeholder="Enter your Phone no">
                 <button class="endbtn">Submit Now</button>
             </div>
-            
-
         </div>
     </div>
     </div>
+
 </body>
 
 </html>

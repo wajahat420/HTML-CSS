@@ -1,0 +1,19 @@
+line height for space b/w line
+text-transfrom upper case for capital,lower case for small letters and capitalize for only first letter capital
+border-width :2px
+border-style: solid/dotted/dashed/double line
+border-color: black
+DISPLAY PROPERTY
+inline elements: required width leta hai
+block elements:pori width leta hai
+inline-block: margin top bottom se bhi ajati hai agr inline laga dety tu top bottom se margin nhi aati
+display none se gayab ho jata hai or empty space  bhi nhi bachta 
+visibility none se gayab hojata hai but space empty nhi hoti
+rgba a stands for alpha 0-1 value set ho skti hai color ki opacity k kaam aata hai
+em called m
+Rem called root m
+vh called viewport height
+vw called viewport width
+position static by default hoti hai top,bottom,left,right and z-index apply nhi hota
+z-index for controlling over lpping -1,-2,-3,0,1,2,3 agr negative hai tu nechay hoga positive hoga tu upper hoga
+background-size:cover,contain,auto 
