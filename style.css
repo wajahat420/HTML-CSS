@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(183, 207, 199);
+  font-style: italic;
+}
+#navbar ul {
+  display: flex;
+  justify-content: center;
+}
+#navbar li {
+  color: white;
+  list-style: none;
+  padding: 20px;
+  font-family: "Baloo Bhai";
+}
+#navbar li:hover {
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+#navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-color: black;
+  height: 80px;
+  width: 100vw;
+  z-index: -1;
+}
+#home {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-image: url(pictures/bg1.jpg);
+  height: 75%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+#h-primary {
+  padding: 15px;
+  font-size: 60px;
+}
+#home p {
+  text-align: center;
+}
+#h-secondary {
+  font-size: 50px;
+  color: red; /* Corrected color value from "re" */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 165px;
+}
+#services {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+#services .box {
+  border: 2px solid brown;
+  height: 350px;
+  width: 200px;
+  border-radius: 28px;
+  padding: 34px;
+  margin: 50px 20px;
+  background-color: rgb(239, 206, 212);
+}
+#services .box img {
+  border-radius: 40px;
+  height: 150px;
+}
+#services .box h1 {
+  text-align: center;
+}
+#services .box p {
+  text-align: center;
+}
+#clients-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  cursor: pointer;
+}
+#clients h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+#clients img {
+  height: 60px;
+  padding: 20px;
+  border-radius: 50px;
+}
+.container {
+  width: 100vw;
+  background-color: rgb(101, 84, 84);
+  height: 400%; /* This is unusual; please adjust the height accordingly */
+}
+#menu h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+#front-img {
+  margin: 100px 20px;
+  width: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 0;
+  margin-left: auto;
+}
+.menu-img img {
+  height: 80px;
+  border-radius: 50%;
+}
+.brochure {
+  margin: 80px 30px;
+  padding: 20px;
+  color: white;
+}
+.brochure h6 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.brochure p {
+  margin: 10px 0;
+}
+.container {
+  display: flex;
+}
+#btn button {
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding: 14px 30px;
+  border-radius: 15px;
+  color: rgb(112, 44, 44);
+  margin: 100px;
+  border: 5px solid orangered;
+  text-align: center;
+  background-color: rgb(223, 226, 43);
+  cursor: pointer;
+}
+#btn button:hover {
+  font-size: 20px;
+  background-color: rgb(235, 237, 119);
+}

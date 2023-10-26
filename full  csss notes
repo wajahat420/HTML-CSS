@@ -17,3 +17,41 @@ vw called viewport width
 position static by default hoti hai top,bottom,left,right and z-index apply nhi hota
 z-index for controlling over lpping -1,-2,-3,0,1,2,3 agr negative hai tu nechay hoga positive hoga tu upper hoga
 background-size:cover,contain,auto 
+
+
+
+<section id="menu">
+
+      <h1>MENU</h1>
+      <div class="brocher">
+        <h6>BURGER</h6>
+        <p>Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet consectetur adipisicing <br> Non, necessitatibus ipsum eius quis eaque iste repellat nam molestias, aliquam  <br> iusto dolores a similique, deleniti tempora. consectetur adipisicing elit. Ut, a.</p>
+        <P>RS/ 450</P>
+      </div>
+      <div class="brocher">
+        <h6>BROST</h6>
+        <p>Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet consectetur adipisicing <br> Non, necessitatibus ipsum eius quis eaque iste repellat nam molestias, aliquam  <br> iusto dolores a similique, deleniti tempora. consectetur adipisicing elit. Ut, </p>
+        <P>RS/ 500</P>
+      </div>
+      <div class="brocher">
+        <h6>KABAB</h6>
+        <p>Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet consectetur adipisicing <br> Non, necessitatibus ipsum eius quis eaque iste repellat nam molestias, aliquam  <br> iusto dolores a similique, deleniti tempora. consectetur adipisicing elit. Ut, </p>
+        <P>RS/ 300</P>
+      </div>
+      <button id="btn">Visit for more menu</button>
+      <div id="images">
+        <div class="menu-img">
+          <img src="pictures/burger.jpg" alt="" />
+        </div>
+
+        <div class="menu-img">
+          <img src="pictures/broast.png" alt="" />
+        </div>
+
+        <div class="menu-img">
+          <img src="pictures/kabab copy.jpg" alt="" />
+        </div>
+      </div>
+
+      
+    </section>
